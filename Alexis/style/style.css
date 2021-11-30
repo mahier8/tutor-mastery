@@ -1,0 +1,111 @@
+body {
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+}
+section {
+    height: 100vh;
+}
+
+/* navbar */
+/* display flex applies to the children of the parent */
+#first {
+    background-color: #00cec9;
+} 
+#topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 8px;
+}
+
+#mainTitle {
+    text-align: center;
+    margin-top: 40vh;
+}
+
+/* about */
+#about {
+    background-color: #fab1a0;
+}
+
+#about h1 {
+    margin-top: 0;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#profileImg {
+    width: 230px;
+    border-radius: 50%;
+}
+
+.iconLeft {
+    width: 50px;
+}
+
+#leftButtons button {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#aboutLeft {
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+#aboutRight {
+    display: flex;
+}
+
+#aboutRightSkills {
+    display: flex;
+}
+
+#aboutRightSkills img {
+    width: 80px;
+    height: 80px;
+}
+
+/* skills */
+#skilss {
+    background-color: #6984ac;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+/* #allCards {
+    
+} */
+
+.skillsIcon {
+    width: 50px;
+}
+
+.one_card {
+    border: 1px solid black;
+}
+
+#skilss h1 {
+    margin-top: 0;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid black;
+}
